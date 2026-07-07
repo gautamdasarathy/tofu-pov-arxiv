@@ -1,0 +1,5 @@
+scenario,source,p,tofu_full_rank,tofu_first_rank,pslb_rank,adaptive_threshold,adaptive_pslb_threshold,oful_lambda_reg,oful_beta_scale
+mnist_cnn_product_lowrank_m4_d100,mnist_openml_product,0.7,4,4,16,0.03,0.03,1.0,0.5
+mnist_cnn_product_lowrank_m4_d100,mnist_openml_product,0.5,4,4,16,0.03,0.03,1.0,0.5
+mnist_cnn_product_lowrank_m4_d100,mnist_openml_product,0.3,8,8,16,0.05,0.03,1.0,0.25
+mnist_cnn_product_lowrank_m4_d100,mnist_openml_product,0.2,4,4,16,0.1,0.03,1.0,0.25

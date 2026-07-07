@@ -1,0 +1,657 @@
+[scenario] mnist_cnn_lowrank_m20_d300 (T=800, p_values=[0.2, 0.1])
+  [calibration] p=0.2 (validation_seeds=[10000])
+/home/gdasarat/.local/lib/python3.8/site-packages/sklearn/datasets/_openml.py:1022: FutureWarning: The default value of `parser` will change from `'liac-arff'` to `'auto'` in 1.4. You can set `parser='auto'` to silence this warning. Therefore, an `ImportError` will be raised from 1.4 if the dataset is dense and pandas is not installed. Note that the pandas parser may return different data types. See the Notes Section in fetch_openml's API doc for details.
+  warn(
+    selected: tofu_full=20, tofu_first=20, pslb=40, threshold_tofu=0.15, threshold_pslb=0.03, oful_lambda=0.1, oful_beta=0.25
+  [calibration] p=0.1 (validation_seeds=[10000])
+    selected: tofu_full=10, tofu_first=10, pslb=10, threshold_tofu=0.1, threshold_pslb=0.03, oful_lambda=0.1, oful_beta=0.25
+  [report] p=0.2 seed=0
+/home/gdasarat/.local/lib/python3.8/site-packages/sklearn/datasets/_openml.py:1022: FutureWarning: The default value of `parser` will change from `'liac-arff'` to `'auto'` in 1.4. You can set `parser='auto'` to silence this warning. Therefore, an `ImportError` will be raised from 1.4 if the dataset is dense and pandas is not installed. Note that the pandas parser may return different data types. See the Notes Section in fetch_openml's API doc for details.
+  warn(
+    [run] TOFU full-history replay fixed-rank best-val
+    [run] TOFU full-history replay adaptive-rank
+    [run] TOFU first-epoch replay fixed-rank best-val
+    [run] Zero-imputed OFUL
+    [run] Masked PSLB fixed-rank best-val
+    [run] Masked PSLB adaptive-rank
+  [report] p=0.2 seed=1
+    [run] TOFU full-history replay fixed-rank best-val
+    [run] TOFU full-history replay adaptive-rank
+    [run] TOFU first-epoch replay fixed-rank best-val
+    [run] Zero-imputed OFUL
+    [run] Masked PSLB fixed-rank best-val
+    [run] Masked PSLB adaptive-rank
+  [report] p=0.1 seed=0
+    [run] TOFU full-history replay fixed-rank best-val
+    [run] TOFU full-history replay adaptive-rank
+    [run] TOFU first-epoch replay fixed-rank best-val
+    [run] Zero-imputed OFUL
+    [run] Masked PSLB fixed-rank best-val
+    [run] Masked PSLB adaptive-rank
+  [report] p=0.1 seed=1
+    [run] TOFU full-history replay fixed-rank best-val
+    [run] TOFU full-history replay adaptive-rank
+    [run] TOFU first-epoch replay fixed-rank best-val
+    [run] Zero-imputed OFUL
+    [run] Masked PSLB fixed-rank best-val
+    [run] Masked PSLB adaptive-rank
+Wrote 19200 trajectory rows to results/cnn_image_narrow/cnn_image_trajectories.csv
+Wrote summary to results/cnn_image_narrow/cnn_image_summary.csv
+Wrote rank-selection diagnostics to results/cnn_image_narrow/cnn_image_rank_selection.csv
+Wrote calibration diagnostics to results/cnn_image_narrow/cnn_image_calibration.csv
+[resume] 24 completed trajectory key(s) loaded from cnn_image_trajectories.csv
+[resume] 2 cached calibration selection(s) loaded from cnn_image_selections.csv
+[scenario] mnist_cnn_lowrank_m20_d300 (T=800, p_values=[0.2, 0.1])
+  [calibration] p=0.2 -> resume from selections
+  [calibration] p=0.1 -> resume from selections
+  [report] p=0.2 seed=0
+    [skip] TOFU full-history replay fixed-rank best-val (already complete)
+    [skip] TOFU full-history replay adaptive-rank (already complete)
+    [skip] TOFU first-epoch replay fixed-rank best-val (already complete)
+    [skip] Zero-imputed OFUL (already complete)
+    [skip] Masked PSLB fixed-rank best-val (already complete)
+    [skip] Masked PSLB adaptive-rank (already complete)
+  [report] p=0.2 seed=1
+    [skip] TOFU full-history replay fixed-rank best-val (already complete)
+    [skip] TOFU full-history replay adaptive-rank (already complete)
+    [skip] TOFU first-epoch replay fixed-rank best-val (already complete)
+    [skip] Zero-imputed OFUL (already complete)
+    [skip] Masked PSLB fixed-rank best-val (already complete)
+    [skip] Masked PSLB adaptive-rank (already complete)
+  [report] p=0.2 seed=2
+/home/gdasarat/.local/lib/python3.8/site-packages/sklearn/datasets/_openml.py:1022: FutureWarning: The default value of `parser` will change from `'liac-arff'` to `'auto'` in 1.4. You can set `parser='auto'` to silence this warning. Therefore, an `ImportError` will be raised from 1.4 if the dataset is dense and pandas is not installed. Note that the pandas parser may return different data types. See the Notes Section in fetch_openml's API doc for details.
+  warn(
+    [run] TOFU full-history replay fixed-rank best-val
+    [run] TOFU full-history replay adaptive-rank
+    [run] TOFU first-epoch replay fixed-rank best-val
+    [run] Zero-imputed OFUL
+    [run] Masked PSLB fixed-rank best-val
+    [run] Masked PSLB adaptive-rank
+  [report] p=0.2 seed=3
+/home/gdasarat/.local/lib/python3.8/site-packages/sklearn/datasets/_openml.py:1022: FutureWarning: The default value of `parser` will change from `'liac-arff'` to `'auto'` in 1.4. You can set `parser='auto'` to silence this warning. Therefore, an `ImportError` will be raised from 1.4 if the dataset is dense and pandas is not installed. Note that the pandas parser may return different data types. See the Notes Section in fetch_openml's API doc for details.
+  warn(
+    [run] TOFU full-history replay fixed-rank best-val
+    [run] TOFU full-history replay adaptive-rank
+    [run] TOFU first-epoch replay fixed-rank best-val
+    [run] Zero-imputed OFUL
+    [run] Masked PSLB fixed-rank best-val
+    [run] Masked PSLB adaptive-rank
+  [report] p=0.2 seed=4
+    [run] TOFU full-history replay fixed-rank best-val
+    [run] TOFU full-history replay adaptive-rank
+    [run] TOFU first-epoch replay fixed-rank best-val
+    [run] Zero-imputed OFUL
+    [run] Masked PSLB fixed-rank best-val
+    [run] Masked PSLB adaptive-rank
+  [report] p=0.1 seed=0
+    [skip] TOFU full-history replay fixed-rank best-val (already complete)
+    [skip] TOFU full-history replay adaptive-rank (already complete)
+    [skip] TOFU first-epoch replay fixed-rank best-val (already complete)
+    [skip] Zero-imputed OFUL (already complete)
+    [skip] Masked PSLB fixed-rank best-val (already complete)
+    [skip] Masked PSLB adaptive-rank (already complete)
+  [report] p=0.1 seed=1
+    [skip] TOFU full-history replay fixed-rank best-val (already complete)
+    [skip] TOFU full-history replay adaptive-rank (already complete)
+    [skip] TOFU first-epoch replay fixed-rank best-val (already complete)
+    [skip] Zero-imputed OFUL (already complete)
+    [skip] Masked PSLB fixed-rank best-val (already complete)
+    [skip] Masked PSLB adaptive-rank (already complete)
+  [report] p=0.1 seed=2
+    [run] TOFU full-history replay fixed-rank best-val
+    [run] TOFU full-history replay adaptive-rank
+    [run] TOFU first-epoch replay fixed-rank best-val
+    [run] Zero-imputed OFUL
+    [run] Masked PSLB fixed-rank best-val
+    [run] Masked PSLB adaptive-rank
+  [report] p=0.1 seed=3
+    [run] TOFU full-history replay fixed-rank best-val
+    [run] TOFU full-history replay adaptive-rank
+    [run] TOFU first-epoch replay fixed-rank best-val
+    [run] Zero-imputed OFUL
+    [run] Masked PSLB fixed-rank best-val
+    [run] Masked PSLB adaptive-rank
+  [report] p=0.1 seed=4
+    [run] TOFU full-history replay fixed-rank best-val
+    [run] TOFU full-history replay adaptive-rank
+    [run] TOFU first-epoch replay fixed-rank best-val
+    [run] Zero-imputed OFUL
+    [run] Masked PSLB fixed-rank best-val
+    [run] Masked PSLB adaptive-rank
+Wrote 48000 trajectory rows to results/cnn_image_narrow/cnn_image_trajectories.csv
+Wrote summary to results/cnn_image_narrow/cnn_image_summary.csv
+Wrote rank-selection diagnostics to results/cnn_image_narrow/cnn_image_rank_selection.csv
+Wrote calibration diagnostics to results/cnn_image_narrow/cnn_image_calibration.csv
+[resume] 60 completed trajectory key(s) loaded from cnn_image_trajectories.csv
+[resume] 2 cached calibration selection(s) loaded from cnn_image_selections.csv
+[scenario] mnist_cnn_lowrank_m20_d300 (T=800, p_values=[0.2, 0.1, 0.075, 0.05])
+  [calibration] p=0.2 -> resume from selections
+  [calibration] p=0.1 -> resume from selections
+  [calibration] p=0.075 (validation_seeds=[10000])
+    selected: tofu_full=40, tofu_first=40, pslb=10, threshold_tofu=0.1, threshold_pslb=0.03, oful_lambda=0.1, oful_beta=0.25
+  [calibration] p=0.05 (validation_seeds=[10000])
+    selected: tofu_full=40, tofu_first=40, pslb=10, threshold_tofu=0.15, threshold_pslb=0.03, oful_lambda=0.1, oful_beta=0.25
+  [report] p=0.2 seed=0
+    [skip] TOFU full-history replay fixed-rank best-val (already complete)
+    [skip] TOFU full-history replay adaptive-rank (already complete)
+    [skip] TOFU first-epoch replay fixed-rank best-val (already complete)
+    [skip] Zero-imputed OFUL (already complete)
+    [skip] Masked PSLB fixed-rank best-val (already complete)
+    [skip] Masked PSLB adaptive-rank (already complete)
+  [report] p=0.2 seed=1
+    [skip] TOFU full-history replay fixed-rank best-val (already complete)
+    [skip] TOFU full-history replay adaptive-rank (already complete)
+    [skip] TOFU first-epoch replay fixed-rank best-val (already complete)
+    [skip] Zero-imputed OFUL (already complete)
+    [skip] Masked PSLB fixed-rank best-val (already complete)
+    [skip] Masked PSLB adaptive-rank (already complete)
+  [report] p=0.2 seed=2
+    [skip] TOFU full-history replay fixed-rank best-val (already complete)
+    [skip] TOFU full-history replay adaptive-rank (already complete)
+    [skip] TOFU first-epoch replay fixed-rank best-val (already complete)
+    [skip] Zero-imputed OFUL (already complete)
+    [skip] Masked PSLB fixed-rank best-val (already complete)
+    [skip] Masked PSLB adaptive-rank (already complete)
+  [report] p=0.2 seed=3
+    [skip] TOFU full-history replay fixed-rank best-val (already complete)
+    [skip] TOFU full-history replay adaptive-rank (already complete)
+    [skip] TOFU first-epoch replay fixed-rank best-val (already complete)
+    [skip] Zero-imputed OFUL (already complete)
+    [skip] Masked PSLB fixed-rank best-val (already complete)
+    [skip] Masked PSLB adaptive-rank (already complete)
+  [report] p=0.2 seed=4
+    [skip] TOFU full-history replay fixed-rank best-val (already complete)
+    [skip] TOFU full-history replay adaptive-rank (already complete)
+    [skip] TOFU first-epoch replay fixed-rank best-val (already complete)
+    [skip] Zero-imputed OFUL (already complete)
+    [skip] Masked PSLB fixed-rank best-val (already complete)
+    [skip] Masked PSLB adaptive-rank (already complete)
+  [report] p=0.1 seed=0
+    [skip] TOFU full-history replay fixed-rank best-val (already complete)
+    [skip] TOFU full-history replay adaptive-rank (already complete)
+    [skip] TOFU first-epoch replay fixed-rank best-val (already complete)
+    [skip] Zero-imputed OFUL (already complete)
+    [skip] Masked PSLB fixed-rank best-val (already complete)
+    [skip] Masked PSLB adaptive-rank (already complete)
+  [report] p=0.1 seed=1
+    [skip] TOFU full-history replay fixed-rank best-val (already complete)
+    [skip] TOFU full-history replay adaptive-rank (already complete)
+    [skip] TOFU first-epoch replay fixed-rank best-val (already complete)
+    [skip] Zero-imputed OFUL (already complete)
+    [skip] Masked PSLB fixed-rank best-val (already complete)
+    [skip] Masked PSLB adaptive-rank (already complete)
+  [report] p=0.1 seed=2
+    [skip] TOFU full-history replay fixed-rank best-val (already complete)
+    [skip] TOFU full-history replay adaptive-rank (already complete)
+    [skip] TOFU first-epoch replay fixed-rank best-val (already complete)
+    [skip] Zero-imputed OFUL (already complete)
+    [skip] Masked PSLB fixed-rank best-val (already complete)
+    [skip] Masked PSLB adaptive-rank (already complete)
+  [report] p=0.1 seed=3
+    [skip] TOFU full-history replay fixed-rank best-val (already complete)
+    [skip] TOFU full-history replay adaptive-rank (already complete)
+    [skip] TOFU first-epoch replay fixed-rank best-val (already complete)
+    [skip] Zero-imputed OFUL (already complete)
+    [skip] Masked PSLB fixed-rank best-val (already complete)
+    [skip] Masked PSLB adaptive-rank (already complete)
+  [report] p=0.1 seed=4
+    [skip] TOFU full-history replay fixed-rank best-val (already complete)
+    [skip] TOFU full-history replay adaptive-rank (already complete)
+    [skip] TOFU first-epoch replay fixed-rank best-val (already complete)
+    [skip] Zero-imputed OFUL (already complete)
+    [skip] Masked PSLB fixed-rank best-val (already complete)
+    [skip] Masked PSLB adaptive-rank (already complete)
+  [report] p=0.075 seed=0
+    [run] TOFU full-history replay fixed-rank best-val
+    [run] TOFU full-history replay adaptive-rank
+    [run] TOFU first-epoch replay fixed-rank best-val
+    [run] Zero-imputed OFUL
+    [run] Masked PSLB fixed-rank best-val
+    [run] Masked PSLB adaptive-rank
+  [report] p=0.075 seed=1
+    [run] TOFU full-history replay fixed-rank best-val
+    [run] TOFU full-history replay adaptive-rank
+    [run] TOFU first-epoch replay fixed-rank best-val
+    [run] Zero-imputed OFUL
+    [run] Masked PSLB fixed-rank best-val
+    [run] Masked PSLB adaptive-rank
+  [report] p=0.075 seed=2
+    [run] TOFU full-history replay fixed-rank best-val
+    [run] TOFU full-history replay adaptive-rank
+    [run] TOFU first-epoch replay fixed-rank best-val
+    [run] Zero-imputed OFUL
+    [run] Masked PSLB fixed-rank best-val
+    [run] Masked PSLB adaptive-rank
+  [report] p=0.075 seed=3
+    [run] TOFU full-history replay fixed-rank best-val
+    [run] TOFU full-history replay adaptive-rank
+    [run] TOFU first-epoch replay fixed-rank best-val
+    [run] Zero-imputed OFUL
+    [run] Masked PSLB fixed-rank best-val
+    [run] Masked PSLB adaptive-rank
+  [report] p=0.075 seed=4
+    [run] TOFU full-history replay fixed-rank best-val
+    [run] TOFU full-history replay adaptive-rank
+    [run] TOFU first-epoch replay fixed-rank best-val
+    [run] Zero-imputed OFUL
+    [run] Masked PSLB fixed-rank best-val
+    [run] Masked PSLB adaptive-rank
+  [report] p=0.05 seed=0
+    [run] TOFU full-history replay fixed-rank best-val
+    [run] TOFU full-history replay adaptive-rank
+    [run] TOFU first-epoch replay fixed-rank best-val
+    [run] Zero-imputed OFUL
+    [run] Masked PSLB fixed-rank best-val
+    [run] Masked PSLB adaptive-rank
+  [report] p=0.05 seed=1
+    [run] TOFU full-history replay fixed-rank best-val
+    [run] TOFU full-history replay adaptive-rank
+    [run] TOFU first-epoch replay fixed-rank best-val
+    [run] Zero-imputed OFUL
+    [run] Masked PSLB fixed-rank best-val
+    [run] Masked PSLB adaptive-rank
+  [report] p=0.05 seed=2
+    [run] TOFU full-history replay fixed-rank best-val
+    [run] TOFU full-history replay adaptive-rank
+    [run] TOFU first-epoch replay fixed-rank best-val
+    [run] Zero-imputed OFUL
+    [run] Masked PSLB fixed-rank best-val
+    [run] Masked PSLB adaptive-rank
+  [report] p=0.05 seed=3
+    [run] TOFU full-history replay fixed-rank best-val
+    [run] TOFU full-history replay adaptive-rank
+    [run] TOFU first-epoch replay fixed-rank best-val
+    [run] Zero-imputed OFUL
+    [run] Masked PSLB fixed-rank best-val
+    [run] Masked PSLB adaptive-rank
+  [report] p=0.05 seed=4
+    [run] TOFU full-history replay fixed-rank best-val
+    [run] TOFU full-history replay adaptive-rank
+    [run] TOFU first-epoch replay fixed-rank best-val
+    [run] Zero-imputed OFUL
+    [run] Masked PSLB fixed-rank best-val
+    [run] Masked PSLB adaptive-rank
+Wrote 96000 trajectory rows to results/cnn_image_narrow/cnn_image_trajectories.csv
+Wrote summary to results/cnn_image_narrow/cnn_image_summary.csv
+Wrote rank-selection diagnostics to results/cnn_image_narrow/cnn_image_rank_selection.csv
+Wrote calibration diagnostics to results/cnn_image_narrow/cnn_image_calibration.csv
+[resume] 60 completed trajectory key(s) loaded from cnn_image_trajectories.csv
+[resume] 2 cached calibration selection(s) loaded from cnn_image_selections.csv
+[scenario] mnist_cnn_lowrank_m20_d300 (T=800, p_values=[0.2, 0.1, 0.075, 0.05])
+  [calibration] p=0.2 -> resume from selections
+  [calibration] p=0.1 -> resume from selections
+  [calibration] p=0.075 (validation_seeds=[10000, 10001])
+/home/gdasarat/.local/lib/python3.8/site-packages/sklearn/datasets/_openml.py:1022: FutureWarning: The default value of `parser` will change from `'liac-arff'` to `'auto'` in 1.4. You can set `parser='auto'` to silence this warning. Therefore, an `ImportError` will be raised from 1.4 if the dataset is dense and pandas is not installed. Note that the pandas parser may return different data types. See the Notes Section in fetch_openml's API doc for details.
+  warn(
+    selected: tofu_full=40, tofu_first=10, pslb=10, threshold_tofu=0.1, threshold_pslb=0.03, oful_lambda=0.1, oful_beta=0.25
+  [calibration] p=0.05 (validation_seeds=[10000, 10001])
+    selected: tofu_full=40, tofu_first=40, pslb=10, threshold_tofu=0.15, threshold_pslb=0.03, oful_lambda=0.1, oful_beta=0.25
+  [report] p=0.2 seed=0
+    [skip] TOFU full-history replay fixed-rank best-val (already complete)
+    [skip] TOFU full-history replay adaptive-rank (already complete)
+    [skip] TOFU first-epoch replay fixed-rank best-val (already complete)
+    [skip] Zero-imputed OFUL (already complete)
+    [skip] Masked PSLB fixed-rank best-val (already complete)
+    [skip] Masked PSLB adaptive-rank (already complete)
+  [report] p=0.2 seed=1
+    [skip] TOFU full-history replay fixed-rank best-val (already complete)
+    [skip] TOFU full-history replay adaptive-rank (already complete)
+    [skip] TOFU first-epoch replay fixed-rank best-val (already complete)
+    [skip] Zero-imputed OFUL (already complete)
+    [skip] Masked PSLB fixed-rank best-val (already complete)
+    [skip] Masked PSLB adaptive-rank (already complete)
+  [report] p=0.2 seed=2
+    [skip] TOFU full-history replay fixed-rank best-val (already complete)
+    [skip] TOFU full-history replay adaptive-rank (already complete)
+    [skip] TOFU first-epoch replay fixed-rank best-val (already complete)
+    [skip] Zero-imputed OFUL (already complete)
+    [skip] Masked PSLB fixed-rank best-val (already complete)
+    [skip] Masked PSLB adaptive-rank (already complete)
+  [report] p=0.2 seed=3
+    [skip] TOFU full-history replay fixed-rank best-val (already complete)
+    [skip] TOFU full-history replay adaptive-rank (already complete)
+    [skip] TOFU first-epoch replay fixed-rank best-val (already complete)
+    [skip] Zero-imputed OFUL (already complete)
+    [skip] Masked PSLB fixed-rank best-val (already complete)
+    [skip] Masked PSLB adaptive-rank (already complete)
+  [report] p=0.2 seed=4
+    [skip] TOFU full-history replay fixed-rank best-val (already complete)
+    [skip] TOFU full-history replay adaptive-rank (already complete)
+    [skip] TOFU first-epoch replay fixed-rank best-val (already complete)
+    [skip] Zero-imputed OFUL (already complete)
+    [skip] Masked PSLB fixed-rank best-val (already complete)
+    [skip] Masked PSLB adaptive-rank (already complete)
+  [report] p=0.1 seed=0
+    [skip] TOFU full-history replay fixed-rank best-val (already complete)
+    [skip] TOFU full-history replay adaptive-rank (already complete)
+    [skip] TOFU first-epoch replay fixed-rank best-val (already complete)
+    [skip] Zero-imputed OFUL (already complete)
+    [skip] Masked PSLB fixed-rank best-val (already complete)
+    [skip] Masked PSLB adaptive-rank (already complete)
+  [report] p=0.1 seed=1
+    [skip] TOFU full-history replay fixed-rank best-val (already complete)
+    [skip] TOFU full-history replay adaptive-rank (already complete)
+    [skip] TOFU first-epoch replay fixed-rank best-val (already complete)
+    [skip] Zero-imputed OFUL (already complete)
+    [skip] Masked PSLB fixed-rank best-val (already complete)
+    [skip] Masked PSLB adaptive-rank (already complete)
+  [report] p=0.1 seed=2
+    [skip] TOFU full-history replay fixed-rank best-val (already complete)
+    [skip] TOFU full-history replay adaptive-rank (already complete)
+    [skip] TOFU first-epoch replay fixed-rank best-val (already complete)
+    [skip] Zero-imputed OFUL (already complete)
+    [skip] Masked PSLB fixed-rank best-val (already complete)
+    [skip] Masked PSLB adaptive-rank (already complete)
+  [report] p=0.1 seed=3
+    [skip] TOFU full-history replay fixed-rank best-val (already complete)
+    [skip] TOFU full-history replay adaptive-rank (already complete)
+    [skip] TOFU first-epoch replay fixed-rank best-val (already complete)
+    [skip] Zero-imputed OFUL (already complete)
+    [skip] Masked PSLB fixed-rank best-val (already complete)
+    [skip] Masked PSLB adaptive-rank (already complete)
+  [report] p=0.1 seed=4
+    [skip] TOFU full-history replay fixed-rank best-val (already complete)
+    [skip] TOFU full-history replay adaptive-rank (already complete)
+    [skip] TOFU first-epoch replay fixed-rank best-val (already complete)
+    [skip] Zero-imputed OFUL (already complete)
+    [skip] Masked PSLB fixed-rank best-val (already complete)
+    [skip] Masked PSLB adaptive-rank (already complete)
+  [report] p=0.075 seed=0
+    [run] TOFU full-history replay fixed-rank best-val
+    [run] TOFU full-history replay adaptive-rank
+    [run] TOFU first-epoch replay fixed-rank best-val
+    [run] Zero-imputed OFUL
+    [run] Masked PSLB fixed-rank best-val
+    [run] Masked PSLB adaptive-rank
+  [report] p=0.075 seed=1
+    [run] TOFU full-history replay fixed-rank best-val
+    [run] TOFU full-history replay adaptive-rank
+    [run] TOFU first-epoch replay fixed-rank best-val
+    [run] Zero-imputed OFUL
+    [run] Masked PSLB fixed-rank best-val
+    [run] Masked PSLB adaptive-rank
+  [report] p=0.075 seed=2
+    [run] TOFU full-history replay fixed-rank best-val
+    [run] TOFU full-history replay adaptive-rank
+    [run] TOFU first-epoch replay fixed-rank best-val
+    [run] Zero-imputed OFUL
+    [run] Masked PSLB fixed-rank best-val
+    [run] Masked PSLB adaptive-rank
+  [report] p=0.075 seed=3
+    [run] TOFU full-history replay fixed-rank best-val
+    [run] TOFU full-history replay adaptive-rank
+    [run] TOFU first-epoch replay fixed-rank best-val
+    [run] Zero-imputed OFUL
+    [run] Masked PSLB fixed-rank best-val
+    [run] Masked PSLB adaptive-rank
+  [report] p=0.075 seed=4
+    [run] TOFU full-history replay fixed-rank best-val
+    [run] TOFU full-history replay adaptive-rank
+    [run] TOFU first-epoch replay fixed-rank best-val
+    [run] Zero-imputed OFUL
+    [run] Masked PSLB fixed-rank best-val
+    [run] Masked PSLB adaptive-rank
+  [report] p=0.05 seed=0
+    [run] TOFU full-history replay fixed-rank best-val
+    [run] TOFU full-history replay adaptive-rank
+    [run] TOFU first-epoch replay fixed-rank best-val
+    [run] Zero-imputed OFUL
+    [run] Masked PSLB fixed-rank best-val
+    [run] Masked PSLB adaptive-rank
+  [report] p=0.05 seed=1
+    [run] TOFU full-history replay fixed-rank best-val
+    [run] TOFU full-history replay adaptive-rank
+    [run] TOFU first-epoch replay fixed-rank best-val
+    [run] Zero-imputed OFUL
+    [run] Masked PSLB fixed-rank best-val
+    [run] Masked PSLB adaptive-rank
+  [report] p=0.05 seed=2
+    [run] TOFU full-history replay fixed-rank best-val
+    [run] TOFU full-history replay adaptive-rank
+    [run] TOFU first-epoch replay fixed-rank best-val
+    [run] Zero-imputed OFUL
+    [run] Masked PSLB fixed-rank best-val
+    [run] Masked PSLB adaptive-rank
+  [report] p=0.05 seed=3
+    [run] TOFU full-history replay fixed-rank best-val
+    [run] TOFU full-history replay adaptive-rank
+    [run] TOFU first-epoch replay fixed-rank best-val
+    [run] Zero-imputed OFUL
+    [run] Masked PSLB fixed-rank best-val
+    [run] Masked PSLB adaptive-rank
+  [report] p=0.05 seed=4
+    [run] TOFU full-history replay fixed-rank best-val
+    [run] TOFU full-history replay adaptive-rank
+    [run] TOFU first-epoch replay fixed-rank best-val
+    [run] Zero-imputed OFUL
+    [run] Masked PSLB fixed-rank best-val
+    [run] Masked PSLB adaptive-rank
+Wrote 96000 trajectory rows to results/cnn_image_narrow/cnn_image_trajectories.csv
+Wrote summary to results/cnn_image_narrow/cnn_image_summary.csv
+Wrote rank-selection diagnostics to results/cnn_image_narrow/cnn_image_rank_selection.csv
+Wrote calibration diagnostics to results/cnn_image_narrow/cnn_image_calibration.csv
+[resume] 120 completed trajectory key(s) loaded from cnn_image_trajectories.csv
+[resume] 4 cached calibration selection(s) loaded from cnn_image_selections.csv
+[scenario] mnist_cnn_lowrank_m20_d300 (T=800, p_values=[0.2, 0.1, 0.075, 0.05, 0.04, 0.03])
+  [calibration] p=0.2 -> resume from selections
+  [calibration] p=0.1 -> resume from selections
+  [calibration] p=0.075 -> resume from selections
+  [calibration] p=0.05 -> resume from selections
+  [calibration] p=0.04 (validation_seeds=[10000, 10001])
+    selected: tofu_full=40, tofu_first=40, pslb=10, threshold_tofu=0.15, threshold_pslb=0.03, oful_lambda=0.1, oful_beta=0.25
+  [calibration] p=0.03 (validation_seeds=[10000, 10001])
+    selected: tofu_full=40, tofu_first=40, pslb=10, threshold_tofu=0.15, threshold_pslb=0.03, oful_lambda=0.1, oful_beta=0.25
+  [report] p=0.2 seed=0
+    [skip] TOFU full-history replay fixed-rank best-val (already complete)
+    [skip] TOFU full-history replay adaptive-rank (already complete)
+    [skip] TOFU first-epoch replay fixed-rank best-val (already complete)
+    [skip] Zero-imputed OFUL (already complete)
+    [skip] Masked PSLB fixed-rank best-val (already complete)
+    [skip] Masked PSLB adaptive-rank (already complete)
+  [report] p=0.2 seed=1
+    [skip] TOFU full-history replay fixed-rank best-val (already complete)
+    [skip] TOFU full-history replay adaptive-rank (already complete)
+    [skip] TOFU first-epoch replay fixed-rank best-val (already complete)
+    [skip] Zero-imputed OFUL (already complete)
+    [skip] Masked PSLB fixed-rank best-val (already complete)
+    [skip] Masked PSLB adaptive-rank (already complete)
+  [report] p=0.2 seed=2
+    [skip] TOFU full-history replay fixed-rank best-val (already complete)
+    [skip] TOFU full-history replay adaptive-rank (already complete)
+    [skip] TOFU first-epoch replay fixed-rank best-val (already complete)
+    [skip] Zero-imputed OFUL (already complete)
+    [skip] Masked PSLB fixed-rank best-val (already complete)
+    [skip] Masked PSLB adaptive-rank (already complete)
+  [report] p=0.2 seed=3
+    [skip] TOFU full-history replay fixed-rank best-val (already complete)
+    [skip] TOFU full-history replay adaptive-rank (already complete)
+    [skip] TOFU first-epoch replay fixed-rank best-val (already complete)
+    [skip] Zero-imputed OFUL (already complete)
+    [skip] Masked PSLB fixed-rank best-val (already complete)
+    [skip] Masked PSLB adaptive-rank (already complete)
+  [report] p=0.2 seed=4
+    [skip] TOFU full-history replay fixed-rank best-val (already complete)
+    [skip] TOFU full-history replay adaptive-rank (already complete)
+    [skip] TOFU first-epoch replay fixed-rank best-val (already complete)
+    [skip] Zero-imputed OFUL (already complete)
+    [skip] Masked PSLB fixed-rank best-val (already complete)
+    [skip] Masked PSLB adaptive-rank (already complete)
+  [report] p=0.1 seed=0
+    [skip] TOFU full-history replay fixed-rank best-val (already complete)
+    [skip] TOFU full-history replay adaptive-rank (already complete)
+    [skip] TOFU first-epoch replay fixed-rank best-val (already complete)
+    [skip] Zero-imputed OFUL (already complete)
+    [skip] Masked PSLB fixed-rank best-val (already complete)
+    [skip] Masked PSLB adaptive-rank (already complete)
+  [report] p=0.1 seed=1
+    [skip] TOFU full-history replay fixed-rank best-val (already complete)
+    [skip] TOFU full-history replay adaptive-rank (already complete)
+    [skip] TOFU first-epoch replay fixed-rank best-val (already complete)
+    [skip] Zero-imputed OFUL (already complete)
+    [skip] Masked PSLB fixed-rank best-val (already complete)
+    [skip] Masked PSLB adaptive-rank (already complete)
+  [report] p=0.1 seed=2
+    [skip] TOFU full-history replay fixed-rank best-val (already complete)
+    [skip] TOFU full-history replay adaptive-rank (already complete)
+    [skip] TOFU first-epoch replay fixed-rank best-val (already complete)
+    [skip] Zero-imputed OFUL (already complete)
+    [skip] Masked PSLB fixed-rank best-val (already complete)
+    [skip] Masked PSLB adaptive-rank (already complete)
+  [report] p=0.1 seed=3
+    [skip] TOFU full-history replay fixed-rank best-val (already complete)
+    [skip] TOFU full-history replay adaptive-rank (already complete)
+    [skip] TOFU first-epoch replay fixed-rank best-val (already complete)
+    [skip] Zero-imputed OFUL (already complete)
+    [skip] Masked PSLB fixed-rank best-val (already complete)
+    [skip] Masked PSLB adaptive-rank (already complete)
+  [report] p=0.1 seed=4
+    [skip] TOFU full-history replay fixed-rank best-val (already complete)
+    [skip] TOFU full-history replay adaptive-rank (already complete)
+    [skip] TOFU first-epoch replay fixed-rank best-val (already complete)
+    [skip] Zero-imputed OFUL (already complete)
+    [skip] Masked PSLB fixed-rank best-val (already complete)
+    [skip] Masked PSLB adaptive-rank (already complete)
+  [report] p=0.075 seed=0
+    [skip] TOFU full-history replay fixed-rank best-val (already complete)
+    [skip] TOFU full-history replay adaptive-rank (already complete)
+    [skip] TOFU first-epoch replay fixed-rank best-val (already complete)
+    [skip] Zero-imputed OFUL (already complete)
+    [skip] Masked PSLB fixed-rank best-val (already complete)
+    [skip] Masked PSLB adaptive-rank (already complete)
+  [report] p=0.075 seed=1
+    [skip] TOFU full-history replay fixed-rank best-val (already complete)
+    [skip] TOFU full-history replay adaptive-rank (already complete)
+    [skip] TOFU first-epoch replay fixed-rank best-val (already complete)
+    [skip] Zero-imputed OFUL (already complete)
+    [skip] Masked PSLB fixed-rank best-val (already complete)
+    [skip] Masked PSLB adaptive-rank (already complete)
+  [report] p=0.075 seed=2
+    [skip] TOFU full-history replay fixed-rank best-val (already complete)
+    [skip] TOFU full-history replay adaptive-rank (already complete)
+    [skip] TOFU first-epoch replay fixed-rank best-val (already complete)
+    [skip] Zero-imputed OFUL (already complete)
+    [skip] Masked PSLB fixed-rank best-val (already complete)
+    [skip] Masked PSLB adaptive-rank (already complete)
+  [report] p=0.075 seed=3
+    [skip] TOFU full-history replay fixed-rank best-val (already complete)
+    [skip] TOFU full-history replay adaptive-rank (already complete)
+    [skip] TOFU first-epoch replay fixed-rank best-val (already complete)
+    [skip] Zero-imputed OFUL (already complete)
+    [skip] Masked PSLB fixed-rank best-val (already complete)
+    [skip] Masked PSLB adaptive-rank (already complete)
+  [report] p=0.075 seed=4
+    [skip] TOFU full-history replay fixed-rank best-val (already complete)
+    [skip] TOFU full-history replay adaptive-rank (already complete)
+    [skip] TOFU first-epoch replay fixed-rank best-val (already complete)
+    [skip] Zero-imputed OFUL (already complete)
+    [skip] Masked PSLB fixed-rank best-val (already complete)
+    [skip] Masked PSLB adaptive-rank (already complete)
+  [report] p=0.05 seed=0
+    [skip] TOFU full-history replay fixed-rank best-val (already complete)
+    [skip] TOFU full-history replay adaptive-rank (already complete)
+    [skip] TOFU first-epoch replay fixed-rank best-val (already complete)
+    [skip] Zero-imputed OFUL (already complete)
+    [skip] Masked PSLB fixed-rank best-val (already complete)
+    [skip] Masked PSLB adaptive-rank (already complete)
+  [report] p=0.05 seed=1
+    [skip] TOFU full-history replay fixed-rank best-val (already complete)
+    [skip] TOFU full-history replay adaptive-rank (already complete)
+    [skip] TOFU first-epoch replay fixed-rank best-val (already complete)
+    [skip] Zero-imputed OFUL (already complete)
+    [skip] Masked PSLB fixed-rank best-val (already complete)
+    [skip] Masked PSLB adaptive-rank (already complete)
+  [report] p=0.05 seed=2
+    [skip] TOFU full-history replay fixed-rank best-val (already complete)
+    [skip] TOFU full-history replay adaptive-rank (already complete)
+    [skip] TOFU first-epoch replay fixed-rank best-val (already complete)
+    [skip] Zero-imputed OFUL (already complete)
+    [skip] Masked PSLB fixed-rank best-val (already complete)
+    [skip] Masked PSLB adaptive-rank (already complete)
+  [report] p=0.05 seed=3
+    [skip] TOFU full-history replay fixed-rank best-val (already complete)
+    [skip] TOFU full-history replay adaptive-rank (already complete)
+    [skip] TOFU first-epoch replay fixed-rank best-val (already complete)
+    [skip] Zero-imputed OFUL (already complete)
+    [skip] Masked PSLB fixed-rank best-val (already complete)
+    [skip] Masked PSLB adaptive-rank (already complete)
+  [report] p=0.05 seed=4
+    [skip] TOFU full-history replay fixed-rank best-val (already complete)
+    [skip] TOFU full-history replay adaptive-rank (already complete)
+    [skip] TOFU first-epoch replay fixed-rank best-val (already complete)
+    [skip] Zero-imputed OFUL (already complete)
+    [skip] Masked PSLB fixed-rank best-val (already complete)
+    [skip] Masked PSLB adaptive-rank (already complete)
+  [report] p=0.04 seed=0
+    [run] TOFU full-history replay fixed-rank best-val
+    [run] TOFU full-history replay adaptive-rank
+    [run] TOFU first-epoch replay fixed-rank best-val
+    [run] Zero-imputed OFUL
+    [run] Masked PSLB fixed-rank best-val
+    [run] Masked PSLB adaptive-rank
+  [report] p=0.04 seed=1
+    [run] TOFU full-history replay fixed-rank best-val
+    [run] TOFU full-history replay adaptive-rank
+    [run] TOFU first-epoch replay fixed-rank best-val
+    [run] Zero-imputed OFUL
+    [run] Masked PSLB fixed-rank best-val
+    [run] Masked PSLB adaptive-rank
+  [report] p=0.04 seed=2
+    [run] TOFU full-history replay fixed-rank best-val
+    [run] TOFU full-history replay adaptive-rank
+    [run] TOFU first-epoch replay fixed-rank best-val
+    [run] Zero-imputed OFUL
+    [run] Masked PSLB fixed-rank best-val
+    [run] Masked PSLB adaptive-rank
+  [report] p=0.04 seed=3
+    [run] TOFU full-history replay fixed-rank best-val
+    [run] TOFU full-history replay adaptive-rank
+    [run] TOFU first-epoch replay fixed-rank best-val
+    [run] Zero-imputed OFUL
+    [run] Masked PSLB fixed-rank best-val
+    [run] Masked PSLB adaptive-rank
+  [report] p=0.04 seed=4
+    [run] TOFU full-history replay fixed-rank best-val
+    [run] TOFU full-history replay adaptive-rank
+    [run] TOFU first-epoch replay fixed-rank best-val
+    [run] Zero-imputed OFUL
+    [run] Masked PSLB fixed-rank best-val
+    [run] Masked PSLB adaptive-rank
+  [report] p=0.03 seed=0
+    [run] TOFU full-history replay fixed-rank best-val
+    [run] TOFU full-history replay adaptive-rank
+    [run] TOFU first-epoch replay fixed-rank best-val
+    [run] Zero-imputed OFUL
+    [run] Masked PSLB fixed-rank best-val
+    [run] Masked PSLB adaptive-rank
+  [report] p=0.03 seed=1
+    [run] TOFU full-history replay fixed-rank best-val
+    [run] TOFU full-history replay adaptive-rank
+    [run] TOFU first-epoch replay fixed-rank best-val
+    [run] Zero-imputed OFUL
+    [run] Masked PSLB fixed-rank best-val
+    [run] Masked PSLB adaptive-rank
+  [report] p=0.03 seed=2
+    [run] TOFU full-history replay fixed-rank best-val
+    [run] TOFU full-history replay adaptive-rank
+    [run] TOFU first-epoch replay fixed-rank best-val
+    [run] Zero-imputed OFUL
+    [run] Masked PSLB fixed-rank best-val
+    [run] Masked PSLB adaptive-rank
+  [report] p=0.03 seed=3
+    [run] TOFU full-history replay fixed-rank best-val
+    [run] TOFU full-history replay adaptive-rank
+    [run] TOFU first-epoch replay fixed-rank best-val
+    [run] Zero-imputed OFUL
+    [run] Masked PSLB fixed-rank best-val
+    [run] Masked PSLB adaptive-rank
+  [report] p=0.03 seed=4
+    [run] TOFU full-history replay fixed-rank best-val
+    [run] TOFU full-history replay adaptive-rank
+    [run] TOFU first-epoch replay fixed-rank best-val
+    [run] Zero-imputed OFUL
+    [run] Masked PSLB fixed-rank best-val
+    [run] Masked PSLB adaptive-rank
+Wrote 144000 trajectory rows to results/cnn_image_narrow/cnn_image_trajectories.csv
+Wrote summary to results/cnn_image_narrow/cnn_image_summary.csv
+Wrote rank-selection diagnostics to results/cnn_image_narrow/cnn_image_rank_selection.csv
+Wrote calibration diagnostics to results/cnn_image_narrow/cnn_image_calibration.csv

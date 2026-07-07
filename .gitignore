@@ -1,0 +1,16 @@
+.pytest_cache/
+__pycache__/
+*.py[cod]
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+.DS_Store
+data/
+results/*
+!results/cnn_image_narrow/
+!results/cnn_image_fair_mnist_m4_d100/
+results/cnn_image_fair_mnist_m4_d100/cnn_image_trajectories.csv
+figures/*
+!figures/cnn_image_fair_mnist_m4_d100/

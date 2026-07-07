@@ -1,0 +1,91 @@
+scenario,source,p,method_family,rank,validation_seed,final_regret,latent_dim,ambient_dim,heldout_accuracy
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.2,TOFU full-history replay fixed-rank,10,10000,184.0,20,300,0.8970073566173845
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.2,TOFU first-epoch replay fixed-rank,10,10000,185.0,20,300,0.8970073566173845
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.2,Masked PSLB fixed-rank,10,10000,182.0,20,300,0.8970073566173845
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.2,TOFU full-history replay fixed-rank,20,10000,169.0,20,300,0.8970073566173845
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.2,TOFU first-epoch replay fixed-rank,20,10000,172.0,20,300,0.8970073566173845
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.2,Masked PSLB fixed-rank,20,10000,181.0,20,300,0.8970073566173845
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.2,TOFU full-history replay fixed-rank,40,10000,213.0,20,300,0.8970073566173845
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.2,TOFU first-epoch replay fixed-rank,40,10000,240.0,20,300,0.8970073566173845
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.2,Masked PSLB fixed-rank,40,10000,172.0,20,300,0.8970073566173845
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.1,TOFU full-history replay fixed-rank,10,10000,284.0,20,300,0.8970073566173845
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.1,TOFU first-epoch replay fixed-rank,10,10000,270.0,20,300,0.8970073566173845
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.1,Masked PSLB fixed-rank,10,10000,251.0,20,300,0.8970073566173845
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.1,TOFU full-history replay fixed-rank,20,10000,486.0,20,300,0.8970073566173845
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.1,TOFU first-epoch replay fixed-rank,20,10000,481.0,20,300,0.8970073566173845
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.1,Masked PSLB fixed-rank,20,10000,255.0,20,300,0.8970073566173845
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.1,TOFU full-history replay fixed-rank,40,10000,547.0,20,300,0.8970073566173845
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.1,TOFU first-epoch replay fixed-rank,40,10000,653.0,20,300,0.8970073566173845
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.1,Masked PSLB fixed-rank,40,10000,265.0,20,300,0.8970073566173845
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.075,TOFU full-history replay fixed-rank,10,10000,397.0,20,300,0.8970073566173845
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.075,TOFU first-epoch replay fixed-rank,10,10000,445.0,20,300,0.8970073566173845
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.075,Masked PSLB fixed-rank,10,10000,310.0,20,300,0.8970073566173845
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.075,TOFU full-history replay fixed-rank,20,10000,663.0,20,300,0.8970073566173845
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.075,TOFU first-epoch replay fixed-rank,20,10000,677.0,20,300,0.8970073566173845
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.075,Masked PSLB fixed-rank,20,10000,322.0,20,300,0.8970073566173845
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.075,TOFU full-history replay fixed-rank,40,10000,360.0,20,300,0.8970073566173845
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.075,TOFU first-epoch replay fixed-rank,40,10000,434.0,20,300,0.8970073566173845
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.075,Masked PSLB fixed-rank,40,10000,338.0,20,300,0.8970073566173845
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.075,TOFU full-history replay fixed-rank,10,10001,353.0,20,300,0.9346475251767731
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.075,TOFU first-epoch replay fixed-rank,10,10001,426.0,20,300,0.9346475251767731
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.075,Masked PSLB fixed-rank,10,10001,272.0,20,300,0.9346475251767731
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.075,TOFU full-history replay fixed-rank,20,10001,649.0,20,300,0.9346475251767731
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.075,TOFU first-epoch replay fixed-rank,20,10001,689.0,20,300,0.9346475251767731
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.075,Masked PSLB fixed-rank,20,10001,305.0,20,300,0.9346475251767731
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.075,TOFU full-history replay fixed-rank,40,10001,338.0,20,300,0.9346475251767731
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.075,TOFU first-epoch replay fixed-rank,40,10001,465.0,20,300,0.9346475251767731
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.075,Masked PSLB fixed-rank,40,10001,310.0,20,300,0.9346475251767731
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.05,TOFU full-history replay fixed-rank,10,10000,615.0,20,300,0.8970073566173845
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.05,TOFU first-epoch replay fixed-rank,10,10000,654.0,20,300,0.8970073566173845
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.05,Masked PSLB fixed-rank,10,10000,379.0,20,300,0.8970073566173845
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.05,TOFU full-history replay fixed-rank,20,10000,678.0,20,300,0.8970073566173845
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.05,TOFU first-epoch replay fixed-rank,20,10000,683.0,20,300,0.8970073566173845
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.05,Masked PSLB fixed-rank,20,10000,397.0,20,300,0.8970073566173845
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.05,TOFU full-history replay fixed-rank,40,10000,315.0,20,300,0.8970073566173845
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.05,TOFU first-epoch replay fixed-rank,40,10000,425.0,20,300,0.8970073566173845
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.05,Masked PSLB fixed-rank,40,10000,392.0,20,300,0.8970073566173845
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.05,TOFU full-history replay fixed-rank,10,10001,593.0,20,300,0.9346475251767731
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.05,TOFU first-epoch replay fixed-rank,10,10001,646.0,20,300,0.9346475251767731
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.05,Masked PSLB fixed-rank,10,10001,397.0,20,300,0.9346475251767731
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.05,TOFU full-history replay fixed-rank,20,10001,674.0,20,300,0.9346475251767731
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.05,TOFU first-epoch replay fixed-rank,20,10001,702.0,20,300,0.9346475251767731
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.05,Masked PSLB fixed-rank,20,10001,436.0,20,300,0.9346475251767731
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.05,TOFU full-history replay fixed-rank,40,10001,356.0,20,300,0.9346475251767731
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.05,TOFU first-epoch replay fixed-rank,40,10001,552.0,20,300,0.9346475251767731
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.05,Masked PSLB fixed-rank,40,10001,459.0,20,300,0.9346475251767731
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.04,TOFU full-history replay fixed-rank,10,10000,660.0,20,300,0.8970073566173845
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.04,TOFU first-epoch replay fixed-rank,10,10000,674.0,20,300,0.8970073566173845
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.04,Masked PSLB fixed-rank,10,10000,480.0,20,300,0.8970073566173845
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.04,TOFU full-history replay fixed-rank,20,10000,648.0,20,300,0.8970073566173845
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.04,TOFU first-epoch replay fixed-rank,20,10000,673.0,20,300,0.8970073566173845
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.04,Masked PSLB fixed-rank,20,10000,503.0,20,300,0.8970073566173845
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.04,TOFU full-history replay fixed-rank,40,10000,420.0,20,300,0.8970073566173845
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.04,TOFU first-epoch replay fixed-rank,40,10000,503.0,20,300,0.8970073566173845
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.04,Masked PSLB fixed-rank,40,10000,514.0,20,300,0.8970073566173845
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.04,TOFU full-history replay fixed-rank,10,10001,623.0,20,300,0.9346475251767731
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.04,TOFU first-epoch replay fixed-rank,10,10001,632.0,20,300,0.9346475251767731
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.04,Masked PSLB fixed-rank,10,10001,431.0,20,300,0.9346475251767731
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.04,TOFU full-history replay fixed-rank,20,10001,631.0,20,300,0.9346475251767731
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.04,TOFU first-epoch replay fixed-rank,20,10001,661.0,20,300,0.9346475251767731
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.04,Masked PSLB fixed-rank,20,10001,463.0,20,300,0.9346475251767731
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.04,TOFU full-history replay fixed-rank,40,10001,390.0,20,300,0.9346475251767731
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.04,TOFU first-epoch replay fixed-rank,40,10001,552.0,20,300,0.9346475251767731
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.04,Masked PSLB fixed-rank,40,10001,491.0,20,300,0.9346475251767731
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.03,TOFU full-history replay fixed-rank,10,10000,661.0,20,300,0.8970073566173845
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.03,TOFU first-epoch replay fixed-rank,10,10000,678.0,20,300,0.8970073566173845
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.03,Masked PSLB fixed-rank,10,10000,550.0,20,300,0.8970073566173845
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.03,TOFU full-history replay fixed-rank,20,10000,602.0,20,300,0.8970073566173845
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.03,TOFU first-epoch replay fixed-rank,20,10000,647.0,20,300,0.8970073566173845
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.03,Masked PSLB fixed-rank,20,10000,563.0,20,300,0.8970073566173845
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.03,TOFU full-history replay fixed-rank,40,10000,420.0,20,300,0.8970073566173845
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.03,TOFU first-epoch replay fixed-rank,40,10000,552.0,20,300,0.8970073566173845
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.03,Masked PSLB fixed-rank,40,10000,566.0,20,300,0.8970073566173845
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.03,TOFU full-history replay fixed-rank,10,10001,667.0,20,300,0.9346475251767731
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.03,TOFU first-epoch replay fixed-rank,10,10001,679.0,20,300,0.9346475251767731
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.03,Masked PSLB fixed-rank,10,10001,546.0,20,300,0.9346475251767731
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.03,TOFU full-history replay fixed-rank,20,10001,623.0,20,300,0.9346475251767731
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.03,TOFU first-epoch replay fixed-rank,20,10001,641.0,20,300,0.9346475251767731
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.03,Masked PSLB fixed-rank,20,10001,551.0,20,300,0.9346475251767731
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.03,TOFU full-history replay fixed-rank,40,10001,473.0,20,300,0.9346475251767731
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.03,TOFU first-epoch replay fixed-rank,40,10001,600.0,20,300,0.9346475251767731
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.03,Masked PSLB fixed-rank,40,10001,558.0,20,300,0.9346475251767731

@@ -1,0 +1,37 @@
+scenario,source,p,method,rank_label,configured_rank,n,mean_final_regret,stderr_final_regret,median_final_regret,mean_reward,mean_final_rank,mean_latent_dim,mean_ambient_dim,mean_train_accuracy,mean_heldout_accuracy,rank_threshold_constant,lambda_reg,beta_scale
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.03,Masked PSLB adaptive-rank,adaptive,"max=40,threshold=0.03",5,408.2,41.97785130280015,359.0,0.48975,1.0,20.0,300.0,0.9363666666666667,0.9321048496535962,0.03,,
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.03,Masked PSLB fixed-rank best-val,best-val,10,5,504.2,26.933993391251878,482.0,0.36975,10.0,20.0,300.0,0.9363666666666667,0.9321048496535962,,,
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.03,TOFU first-epoch replay fixed-rank best-val,best-val,40,5,495.2,37.42913303831656,483.0,0.381,40.0,20.0,300.0,0.9363666666666667,0.9321048496535962,,,
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.03,TOFU full-history replay adaptive-rank,adaptive,"max=40,threshold=0.15",5,171.2,9.451983918733676,174.0,0.786,1.0,20.0,300.0,0.9363666666666667,0.9321048496535962,0.15,,
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.03,TOFU full-history replay fixed-rank best-val,best-val,40,5,389.8,30.869726270247362,375.0,0.51275,40.0,20.0,300.0,0.9363666666666667,0.9321048496535962,,,
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.03,Zero-imputed OFUL,ambient,300,5,214.0,12.485992151206887,227.0,0.7325,300.0,20.0,300.0,0.9363666666666667,0.9321048496535962,,0.1,0.25
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.04,Masked PSLB adaptive-rank,adaptive,"max=40,threshold=0.03",5,339.4,33.36704961485208,312.0,0.57575,1.0,20.0,300.0,0.9363666666666667,0.9321048496535962,0.03,,
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.04,Masked PSLB fixed-rank best-val,best-val,10,5,397.4,27.794963572561123,385.0,0.50325,10.0,20.0,300.0,0.9363666666666667,0.9321048496535962,,,
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.04,TOFU first-epoch replay fixed-rank best-val,best-val,40,5,471.2,50.12524314155493,449.0,0.411,40.0,20.0,300.0,0.9363666666666667,0.9321048496535962,,,
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.04,TOFU full-history replay adaptive-rank,adaptive,"max=40,threshold=0.15",5,158.0,8.893818077743664,158.0,0.8025,1.0,20.0,300.0,0.9363666666666667,0.9321048496535962,0.15,,
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.04,TOFU full-history replay fixed-rank best-val,best-val,40,5,356.0,31.17049887313323,334.0,0.555,40.0,20.0,300.0,0.9363666666666667,0.9321048496535962,,,
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.04,Zero-imputed OFUL,ambient,300,5,173.0,7.436396977031282,172.0,0.78375,300.0,20.0,300.0,0.9363666666666667,0.9321048496535962,,0.1,0.25
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.05,Masked PSLB adaptive-rank,adaptive,"max=40,threshold=0.03",5,291.2,35.66426783210332,278.0,0.636,1.0,20.0,300.0,0.9363666666666667,0.9321048496535962,0.03,,
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.05,Masked PSLB fixed-rank best-val,best-val,10,5,355.2,23.751631522908063,319.0,0.556,10.0,20.0,300.0,0.9363666666666667,0.9321048496535962,,,
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.05,TOFU first-epoch replay fixed-rank best-val,best-val,40,5,406.8,38.25493432225443,383.0,0.4915,40.0,20.0,300.0,0.9363666666666667,0.9321048496535962,,,
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.05,TOFU full-history replay adaptive-rank,adaptive,"max=40,threshold=0.15",5,147.4,6.9469417731833625,146.0,0.81575,1.0,20.0,300.0,0.9363666666666667,0.9321048496535962,0.15,,
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.05,TOFU full-history replay fixed-rank best-val,best-val,40,5,294.6,28.95617378038749,281.0,0.63175,40.0,20.0,300.0,0.9363666666666667,0.9321048496535962,,,
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.05,Zero-imputed OFUL,ambient,300,5,147.8,12.289833196589772,149.0,0.81525,300.0,20.0,300.0,0.9363666666666667,0.9321048496535962,,0.1,0.25
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.075,Masked PSLB adaptive-rank,adaptive,"max=40,threshold=0.03",5,208.8,11.257886124845996,212.0,0.739,1.0,20.0,300.0,0.9363666666666667,0.9321048496535962,0.03,,
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.075,Masked PSLB fixed-rank best-val,best-val,10,5,251.0,16.825575770237403,261.0,0.68625,10.0,20.0,300.0,0.9363666666666667,0.9321048496535962,,,
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.075,TOFU first-epoch replay fixed-rank best-val,best-val,10,5,376.2,38.69030886410704,422.0,0.52975,10.0,20.0,300.0,0.9363666666666667,0.9321048496535962,,,
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.075,TOFU full-history replay adaptive-rank,adaptive,"max=40,threshold=0.1",5,144.2,6.5375836514724615,145.0,0.81975,1.0,20.0,300.0,0.9363666666666667,0.9321048496535962,0.1,,
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.075,TOFU full-history replay fixed-rank best-val,best-val,40,5,305.4,20.786053016385768,311.0,0.61825,40.0,20.0,300.0,0.9363666666666667,0.9321048496535962,,,
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.075,Zero-imputed OFUL,ambient,300,5,124.0,8.25832912882503,124.0,0.845,300.0,20.0,300.0,0.9363666666666667,0.9321048496535962,,0.1,0.25
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.1,Masked PSLB adaptive-rank,adaptive,"max=40,threshold=0.03",5,172.0,12.856904759700134,162.0,0.785,1.0,20.0,300.0,0.9363666666666667,0.9321048496535962,0.03,,
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.1,Masked PSLB fixed-rank best-val,best-val,10,5,190.4,19.231744590650116,169.0,0.762,10.0,20.0,300.0,0.9363666666666667,0.9321048496535962,,,
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.1,TOFU first-epoch replay fixed-rank best-val,best-val,10,5,240.4,26.511506935668518,277.0,0.6995,10.0,20.0,300.0,0.9363666666666667,0.9321048496535962,,,
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.1,TOFU full-history replay adaptive-rank,adaptive,"max=40,threshold=0.1",5,133.8,10.33634364753804,126.0,0.83275,1.2,20.0,300.0,0.9363666666666667,0.9321048496535962,0.1,,
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.1,TOFU full-history replay fixed-rank best-val,best-val,10,5,235.4,23.436296635774173,227.0,0.70575,10.0,20.0,300.0,0.9363666666666667,0.9321048496535962,,,
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.1,Zero-imputed OFUL,ambient,300,5,99.4,5.409251334519409,103.0,0.87575,300.0,20.0,300.0,0.9363666666666667,0.9321048496535962,,0.1,0.25
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.2,Masked PSLB adaptive-rank,adaptive,"max=40,threshold=0.03",5,127.6,10.490948479522714,123.0,0.8405,1.0,20.0,300.0,0.9363666666666667,0.9321048496535962,0.03,,
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.2,Masked PSLB fixed-rank best-val,best-val,40,5,135.8,14.997999866648884,127.0,0.83025,40.0,20.0,300.0,0.9363666666666667,0.9321048496535962,,,
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.2,TOFU first-epoch replay fixed-rank best-val,best-val,20,5,142.4,16.815469068687914,152.0,0.822,20.0,20.0,300.0,0.9363666666666667,0.9321048496535962,,,
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.2,TOFU full-history replay adaptive-rank,adaptive,"max=40,threshold=0.15",5,114.8,10.209799214480174,123.0,0.8565,1.2,20.0,300.0,0.9363666666666667,0.9321048496535962,0.15,,
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.2,TOFU full-history replay fixed-rank best-val,best-val,20,5,146.8,19.04835950941708,137.0,0.8165,20.0,20.0,300.0,0.9363666666666667,0.9321048496535962,,,
+mnist_cnn_lowrank_m20_d300,mnist_openml,0.2,Zero-imputed OFUL,ambient,300,5,77.8,3.4409301068170506,76.0,0.90275,300.0,20.0,300.0,0.9363666666666667,0.9321048496535962,,0.1,0.25
