@@ -1,0 +1,4 @@
+scenario,source,p,tofu_full_rank,tofu_first_rank,pslb_rank,adaptive_threshold,adaptive_pslb_threshold,oful_lambda_reg,oful_beta_scale
+text20news4_product_spectral_tail_r025_m20_d1000,20newsgroups4,0.4,20,20,20,0.05,0.03,0.1,0.25
+text20news4_product_spectral_tail_r025_m20_d1000,20newsgroups4,0.3,20,20,20,0.05,0.03,0.1,0.25
+text20news4_product_spectral_tail_r025_m20_d1000,20newsgroups4,0.2,20,20,20,0.05,0.03,0.1,0.25

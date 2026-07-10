@@ -60,20 +60,11 @@ Run the synthetic benchmark suite with:
 PYTHONPATH=. python3 experiments/run_synthetic_benchmarks.py
 ```
 
-The current benchmark snapshot is documented in
-`results/synthetic_summary.md`.
-
 Run the rank-misspecification/adaptive-rank benchmark with:
 
 ```bash
 PYTHONPATH=. python3 experiments/run_rank_adaptation_experiments.py
 ```
-
-The current rank-adaptation snapshot is documented in
-`results/rank_adaptation_summary.md`.
-
-See `tofu_pov_implementation_plan.md` for experiment design notes, including
-synthetic sweeps and real-world dataset conversion guidance.
 
 ## Reference
 
