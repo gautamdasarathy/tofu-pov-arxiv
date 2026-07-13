@@ -72,7 +72,16 @@ This repository accompanies the paper:
 
 > Gautam Dasarathy, Vineet Gattani, and Lalit Jain.
 > *Stochastic Linear Bandits with Partially Observed Actions.*
-> arXiv preprint, 2026.
+> arXiv preprint [arXiv:2607.08971](https://arxiv.org/abs/2607.08971), 2026.
+
+```bibtex
+@article{dasarathy2026stochastic,
+  title={Stochastic Linear Bandits with Partially Observed Actions},
+  author={Dasarathy, Gautam and Gattani, Vineet and Jain, Lalit},
+  journal={arXiv preprint arXiv:2607.08971},
+  year={2026}
+}
+```
 
 ## License
 
